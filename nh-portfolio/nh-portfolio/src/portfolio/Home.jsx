@@ -1,5 +1,4 @@
 import React from "react";
-import Resume from "../assets/documents/NHRESUME.pdf";
 
 export default function Home() {
   return (
@@ -12,14 +11,9 @@ export default function Home() {
         <h1 className="fw-bold display-4 text-white">Nosipho Hlongwane</h1>
         <h3 className="mb-4 text-white">Front-End Developer</h3>
         <h6 className="mb-4 text-white">Based in Johannesburg, South Africa</h6>
-        <a
-          href={Resume}
-          download="NosiphoHlongwane_Resume"
-          className="btn btn-light"
-        >
-          Download Resume
-        </a>
+     
       </div>
     </section>
   );
 }
+
